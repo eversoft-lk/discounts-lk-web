@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<!-- Mirrored from html-templates.evonicmedia.com/appific/FAQ.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 24 Oct 2024 06:02:45 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appific - App Showcase - FAQ</title>
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="assets/images/fav-icon.svg" type="image/x-icon">
+    <!-- faremwork of css -->
+    <link rel="stylesheet" href="assets/css/bootstrap-lib/bootstrap.min.css">
+    <!-- style sheet of css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive sheet of css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- fonts awsome icon link  -->
+    <link rel="stylesheet" href="assets/font-awesome-lib/icon/font-awesome.min.css">
+    <!-- slick-slider link css -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- animation of css -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+</head>
+
+<body>
+
+    <div class="site-wrapper">
+        <!-- ======== 1.1. header section ======== -->
+        <header>
+            <nav class="navbar navbar-expand-lg container  pt-lg-3 pt-2 pb-lg-3 pb-2" data-aos="slide-down">
+                <div class="container-fluid">
+                    <!-- site logo -->
+                    <a class="nav-logo p-0 " href="index.html">
+                        <figure><img src="assets/images/logo.svg" alt="logo"></figure>
+                    </a>
+                    <!-- navigation button  -->
+                    <button class="open-aside" onclick="open_aside()" type="button">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <!-- navigation bar manu  -->
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul
+                            class="navbar-nav d-flex justify-content-center align-items-center gap-lg-4 gap-md-2 gap-sm-2 gap-2 mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="About.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="Contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Pricing.html">Pricing</a>
+                            </li>
+                            <li class="dropdown"><a class="nav-link d-flex align-item-center gap-1 active"
+                                    href="#">Pages <i class="fa-sharp fa-solid fa-sort-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+                                    <li><a class="dropdown-item" href="BlogDetail.html">Blog Details</a></li>
+                                    <li><a class="dropdown-item" href="Features.html">Features</a></li>
+                                    <li><a class="dropdown-item active" href="FAQ.html">FAQs</a></li>
+                                    <li><a class="dropdown-item" href="Team.html">Team</a></li>
+                                    <li><a class="dropdown-item" href="Testimonial.html">Testimonials</a></li>
+                                    <li><a class="dropdown-item" href="404.html">404</a></li>
+                                    <li><a class="dropdown-item" href="ComingSoon.html">Coming Soon</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="hover1 down-btn">Download</a>
+                </div>
+            </nav>
+            <!--===== aside navigation slidebar =====-->
+            <aside>
+                <div id="mySidenav" class="right-sidbar">
+                    <div class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">
+                        <figure class="navbar-brand">
+                            <a href="index.html">
+                                <img src="assets/images/logo.svg" alt="img" class="">
+                            </a>
+                        </figure>
+                        <button class="fa-solid fa-xmark" onclick="close_aside()"> </button>
+                    </div>
+                    <ul class="pt-4">
+                        <li class="nav-item">
+                            <a aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="d-flex align-items-center justify-content-between " id="slid-btn">
+                                <button class="a-slid page-btn active">Pages</button>
+                                <i class="fa-solid fa-caret-down pe-2 active"></i>
+                            </div>
+                            <ul id="slid-drop">
+                                <li><a href="Blog.html">Our Blog</a></li>
+                                <li><a href="BlogDetail.html">Blog Detail</a></li>
+                                <li><a href="Features.html">Features</a></li>
+                                <li><a href="Team.html">Team</a></li>
+                                <li><a href="Testimonial.html">Testimonials</a></li>
+                                <li class="active"><a href="FAQ.html">FAQs</a></li>
+                                <li><a href="404.html">404</a></li>
+                                <li><a href="ComingSoon.html">Coming Soon</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </header>
+        <!-- ======== End of 1.1. header section ========  -->
+        <!-- ======== 3.1. Subpage_Hero section ========  -->
+        <section class="Subpage_Hero">
+            <div class="container">
+                <div class="d-flex justify-content-center text-center px-lg-5 px-md-4 px-3">
+                    <h2 data-aos="zoom-in-up">Help & FAQs</h2>
+                </div>
+            </div>
+        </section>
+        <!-- ======== End of 3.1. Subpage_Hero section ========  -->
+        <!-- ======== 1.13. FAQ section ========  -->
+        <section class="FAQ pb-0">
+            <div class="container">
+                <div class="d-flex justify-content-center align-items-center text-center flex-column gap-3"
+                    data-aos="fade-up">
+                    <h2>Frequently Asked Questions</h2>
+                    <p class="w-75">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="row mt-lg-5">
+                    <div class="col-lg-7">
+                        <div class="accordion" id="accordionExample" data-aos="fade-up">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Lorem ipsum dolor sit amet consectetur?
+                                        <i class="fa-solid fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                    </button>
+                                </h4>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. In vitae turpis massa sed
+                                            elementum
+                                            tempus egestas sed. Diam in arcu cursus euismod. Dolor sed viverra ipsum
+                                            nunc
+                                            aliquet bibendum enim facilisis gravida
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Lorem ipsum dolor sit amet consectetur?
+                                        <i class="fa-solid fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                    </button>
+                                </h4>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. In vitae turpis massa sed
+                                            elementum
+                                            tempus egestas sed. Diam in arcu cursus euismod. Dolor sed viverra ipsum
+                                            nunc
+                                            aliquet bibendum enim facilisis gravida</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Lorem ipsum dolor sit amet consectetur?
+                                        <i class="fa-solid fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                    </button>
+                                </h4>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. In vitae turpis massa sed
+                                            elementum
+                                            tempus egestas sed. Diam in arcu cursus euismod. Dolor sed viverra ipsum
+                                            nunc
+                                            aliquet bibendum enim facilisis gravida</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Lorem ipsum dolor sit amet consectetur?
+                                        <i class="fa-solid fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                    </button>
+                                </h4>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. In vitae turpis massa sed
+                                            elementum
+                                            tempus egestas sed. Diam in arcu cursus euismod. Dolor sed viverra ipsum
+                                            nunc
+                                            aliquet bibendum enim facilisis
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <figure class="d-flex align-content-center h-100 flex-wrap">
+                            <img src="assets/images/index/FAQ_Img.webp" alt="FAQ_Img" data-aos="zoom-in-up">
+                        </figure>
+                        <div class="d-flex align-items-center justify-content-center position-relative">
+                            <div class="FAQ_Search d-flex gap-lg-4 gap-md-3 gap-2">
+                                <img src="assets/images/icon/Search.svg" alt="Search">
+                                <p>House in <span>Loss Angles</span></p>
+                            </div>
+                            <div
+                                class="Payment d-flex align-items-center justify-content-center gap-lg-5 gap-md-3 gap-2">
+                                <div>
+                                    <p>Total Payment</p>
+                                    <h5>$<span class="number" data-final-value="1800">0</span></h5>
+                                </div>
+                                <div>
+                                    <a href="Pricing.html" class="hover2">Book Now</a>
+                                </div>
+                            </div>
+                            <div class="credit">
+                                <i class="fa-regular fa-credit-card"></i>
+                            </div>
+                            <div class="home">
+                                <i class="fa-solid fa-house fa-xl"></i>
+                            </div>
+                            <div class="Dot_Lines position-absolute">
+                                <img src="assets/images/icon/dotedLine_FAQ.svg" alt="DotLine">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== End of 1.13. FAQ section ========  -->
+        <!-- ======== 1.15. Register section ========  -->
+        <section class="Register">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 position-relative">
+                        <figure class="position-absolute" data-aos="zoom-in-up">
+                            <img src="assets/images/index/Register_Img.webp" alt="Register_Img" data-aos="zoom-in-up"
+                                data-aos-delay="200">
+                        </figure>
+                    </div>
+                    <div class="col-lg-7">
+                        <div data-aos="fade-up">
+                            <h1 class="mb-lg-4 mb-3">Get The App Register Now!</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took.
+                            </p>
+                            <form action="https://html-templates.evonicmedia.com/" id="Subscribe-massage2"
+                                class="w-100 d-flex justify-content-between gap-2 align-items-center">
+                                <input class="w-75 border-0" name="Email" type="email"
+                                    placeholder="Enter Your Email For Registration" required autocomplete="on">
+                                <button class="hover2" type="submit">Submit</button>
+                            </form>
+                            <div id="Succes-box2" class="validation"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== End of 1.15. Register section ========  -->
+        <!-- ======== 1.16. Footer ========  -->
+        <footer>
+            <div class="d-flex justify-content-center align-items-center flex-column gap-lg-5 gap-4">
+                <figure>
+                    <a href="index.html">
+                        <img src="assets/images/footer_Logo.svg" alt="footer_Logo">
+                    </a>
+                </figure>
+                <ul class="d-flex gap-lg-5 gap-4">
+                    <li>
+                        <p>
+                            <a href="index.html">Home</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="Features.html">Features</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="Pricing.html">Pricing</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="About.html">About</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="Contact.html">Contact</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center align-items-center flex-column gap-lg-4 gap-4 mt-lg-4 mt-3">
+                <div class="d-flex justify-content-center align-items-center gap-lg-5 gap-4">
+                    <figure class="d-flex justify-content-center align-items-center">
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </figure>
+                    <figure class="d-flex justify-content-center align-items-center">
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </figure>
+                    <figure class="d-flex justify-content-center align-items-center">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </figure>
+                </div>
+                <div class="text-center">
+                    <h5 class="mb-2">Copyright &copy; <span id="year"></span> Appific By Evonicmedia. All Rights
+                        Reserved.</h5>
+                </div>
+            </div>
+            <button class="scrollToTopButton">
+                <svg class="progress-ring" width="69" height="69">
+                    <circle stroke="#E85838" stroke-width="5" fill="transparent" r="30.5" cx="34.5" cy="34.5"></circle>
+                    <circle class="progress-ring__circle" stroke="white" stroke-width="4" fill="transparent" r="30.5"
+                        cx="34.5" cy="34.5" />
+                </svg>
+                <span class="icon"></span>
+            </button>
+        </footer>
+        <!-- ======== End of 1.16. Footer ========  -->
+    </div>
+
+    <!-- bootstrap min javascript -->
+    <script src="assets/js/javascript-lib/bootstrap.min.js"></script>
+    <!-- j Query -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- slick slider js -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- main javascript -->
+    <script src="assets/js/custom.js"></script>
+    <!-- animation from javascript -->
+    <script src="assets/js/aos.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8d79a48d5e149d1a',t:'MTcyOTc2OTUxMC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='../cdn-cgi/challenge-platform/h/g/scripts/jsd/f2bbd6738e15/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+
+<!-- Mirrored from html-templates.evonicmedia.com/appific/FAQ.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 24 Oct 2024 06:02:45 GMT -->
+</html>
