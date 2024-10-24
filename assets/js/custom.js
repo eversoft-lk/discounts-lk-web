@@ -62,3 +62,10 @@ document.addEventListener("DOMContentLoaded", function () {
     mouse.y = event.y;
   });
 });
+
+window.addEventListener("resize", () => {
+  var canvas = document.getElementById("preloaderCanvas");
+
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+});
