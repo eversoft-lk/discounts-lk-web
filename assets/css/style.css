@@ -424,8 +424,8 @@ span {
 }
 
 .hover3 {
-  background-color: #e85838;
-  border: 1px solid #e85838;
+  background-color: #F5640A;
+  border: 1px solid #F5640A;
   border-radius: 15px;
   color: #ffffff;
   padding: 19px 50px;
@@ -471,7 +471,7 @@ span {
 }
 
 .hover3:hover {
-  color: #e85838;
+  color: #F5640A;
 }
 
 .hover4 {
@@ -2004,53 +2004,6 @@ aside .fa-xmark:hover,
   border-radius: 15px;
 }
 
-/* ======== End of 1.15. Register section ======== */
-/* ======== 1.16. Footer section ======== */
-
-footer {
-  background-color: #1b1117;
-  color: #1b1117;
-  padding: 50px 0px 0px;
-}
-
-footer img[alt="footer_Logo"] {
-  width: 136px;
-}
-
-footer ul a {
-  color: #ffffff;
-}
-
-footer ul a:hover {
-  color: #e85838;
-}
-
-footer .mt-lg-4 {
-  background-color: #ffffff;
-  padding-top: 30px;
-}
-
-footer .mt-lg-4 figure i {
-  color: #ffffff;
-}
-
-footer .mt-lg-4 figure {
-  background-color: #e85838;
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-  color: #ffffff;
-  transition: 0.3s ease;
-  cursor: pointer;
-}
-
-footer .mt-lg-4 figure:hover {
-  background-color: #1b1117;
-}
-
-footer .text-center h5 {
-  color: #1b1117;
-}
 
 /* ======== End of 1.16. Footer section ======== */
 /* ======== 2.1. About_Hero section ======== */
