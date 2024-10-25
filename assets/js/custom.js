@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  function drawLine(line, color = "#E85838", thickness = 1) {
+  function drawLine(line, color = "#f5640a", thickness = 1) {
     ctx.beginPath();
     ctx.moveTo(line.x, line.y);
     ctx.lineTo(line.x + 20, line.y + 20);
