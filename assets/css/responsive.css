@@ -1,0 +1,2810 @@
+/* ======== Global Styling ======== */
+
+@media screen and (max-width: 992px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 990px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 46px;
+        line-height: 55px;
+    }
+
+    h2 {
+        font-size: 38px;
+        line-height: 45px;
+    }
+
+    h3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    h4 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    h5 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    h6 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+
+    a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    button {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .validation {
+        width: 48%;
+        right: 27%;
+    }
+
+    .scrollToTopButton.show-btn {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    h5 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    h6 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    button {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .hover1 {
+        padding: 14px 28px;
+    }
+
+    .hover2 {
+        padding: 14px 28px;
+    }
+
+    .hover3 {
+        padding: 14px 28px;
+    }
+
+    .validation {
+        width: 75%;
+        right: 13%;
+        padding: 50px 35px;
+    }
+
+    .validation i {
+        padding: 25px;
+        font-size: 30px !important;
+    }
+
+    .scrollToTopButton.show-btn {
+        transform: scale(0.7);
+    }
+
+    .scrollToTopButton {
+        bottom: 5px;
+        right: 5px;
+    }
+}
+
+/* ======== End of Global Styling ======== */
+/* ========= 1.1. Header section ========= */
+
+@media screen and (max-width: 991px) {
+    .down-btn {
+        display: none;
+    }
+
+    .open-aside {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-logo img {
+        width: 120px;
+    }
+
+    .open-aside {
+        padding: 8px 10px;
+        font-size: 22px;
+    }
+}
+
+/* ========= End of 1.1. Header section ========= */
+/* ========= 1.2. Hero section ========= */
+
+@media screen and (max-width: 1399px) {
+    .Hero .Price_1st {
+        left: 17%;
+        margin-top: 10px;
+    }
+
+    .Hero .Price_2nd {
+        right: 22%;
+        margin-top: 70px;
+    }
+
+    .Hero .paypal {
+        left: 10%;
+        bottom: 12%;
+    }
+
+    .Hero .credit {
+        left: 8%;
+    }
+
+    .Hero .home {
+        right: 18%;
+        top: 30%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Hero .text-center h1 {
+        padding: 0px 50px;
+    }
+
+    .Hero .text-center p {
+        padding: 20px 200px 20px 200px;
+    }
+
+    .Hero .Price_2nd {
+        right: 16%;
+    }
+
+    .Hero .Price_1st {
+        left: 12%;
+    }
+
+    .Hero .paypal {
+        left: 6%;
+        bottom: 8%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Hero .text-center p {
+        padding: 20px 100px 20px 100px;
+    }
+
+    .Hero .mobile_circle {
+        top: 40px;
+    }
+
+    .Hero .Price_2nd {
+        right: 15%;
+        margin-top: 25px;
+    }
+
+    .Hero .Price_1st {
+        left: 10%;
+    }
+
+    .Hero .home {
+        right: 15%;
+        top: 22%;
+    }
+
+    .Hero .paypal {
+        left: 10%;
+    }
+
+    .Hero .avater_Images .carver img {
+        margin-bottom: 55px;
+        height: 80px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .Hero {
+        padding: 70px 0px 0px 0px;
+    }
+
+    .Hero .text-center p {
+        padding: 20px 70px 20px 70px;
+    }
+
+    .Hero .text-center p {
+        padding: 15px 50px 15px 50px;
+    }
+
+    .Hero .text-center input {
+        width: 50%;
+    }
+
+    .Hero .mobile_circle {
+        top: 30px;
+    }
+
+    .Hero .Price_2nd {
+        right: 8%;
+        border-radius: 12px;
+        padding: 15px;
+    }
+
+    .Hero .Price_1st {
+        left: 6%;
+        margin-top: -50px;
+        border-radius: 12px;
+        padding: 20px;
+    }
+
+    .Hero .home {
+        right: 9%;
+        top: 17%;
+        padding: 16px 11px;
+    }
+
+    .Hero .credit {
+        left: 8%;
+        top: 14%;
+        padding: 11px 10px;
+    }
+
+    .Hero .paypal {
+        left: 8%;
+        padding: 15px 15px;
+    }
+
+    .Hero i {
+        font-size: 26px;
+    }
+
+    .Hero .avater_Images .carver img {
+        height: 65px;
+    }
+
+    .Hero .Dots_lines img:first-child {
+        width: 8%;
+        margin-top: 50px;
+    }
+
+    .Hero .Dots_lines img:nth-child(2) {
+        width: 8%;
+    }
+
+    .Hero .avater_Images .member {
+        height: 80px;
+    }
+
+    .Hero .Price_1st span span {
+        width: 75px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Hero {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .Hero .Price_2nd span span {
+        width: 45px;
+    }
+
+    .Hero .text-center h1 {
+        padding: 10px;
+    }
+
+    .Hero .text-center p {
+        padding: 10px 10px 15px 10px;
+    }
+
+    .Hero .Dots_lines img:first-child {
+        margin-top: 30px;
+        left: -2%;
+    }
+
+    .Hero .Dots_lines img:nth-child(2) {
+        right: -2%;
+    }
+
+    .Hero .text-center input {
+        width: 90%;
+        padding: 14px;
+        border-radius: 15px;
+    }
+
+    .Hero .hover2 {
+        width: 90%;
+    }
+
+    .Hero .home {
+        right: 3%;
+        top: 13%;
+    }
+
+    .Hero .credit {
+        left: 10%;
+        top: 11%;
+    }
+
+    .Hero .paypal {
+        left: 0%;
+        bottom: 3%;
+    }
+
+    .Hero .Price_2nd {
+        right: 1%;
+    }
+
+    .Hero .Price_1st {
+        left: 0%;
+        margin-top: 45px;
+    }
+
+    .Hero .mobile_circle {
+        top: 70px;
+        margin: 0px 30px;
+    }
+
+    .Hero .Price_1st span {
+        font-size: 17px;
+        line-height: 22px;
+        padding: 0px 17px 0px 0px;
+    }
+
+    .Hero .Price_2nd span {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+
+    .Hero .Price_2nd {
+        padding: 10px 10px
+    }
+
+    .Hero .Price_2nd i {
+        width: 29px;
+        height: 29px;
+        font-size: 14px;
+    }
+
+    .Hero .Price_1st {
+        padding: 15px;
+    }
+
+    .Hero i {
+        font-size: 22px;
+    }
+
+    .Hero .avater_Images .member {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Hero .avater_Images .member {
+        height: 100px;
+    }
+
+    .Hero .avater_Images .carver img {
+        margin-bottom: 82px;
+        height: 55px;
+    }
+
+    .Hero .text-center form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .Hero .mobile_circle img:first-child {
+        margin-bottom: 70px;
+    }
+
+    .Hero .mobile_circle img:nth-child(2) {
+        top: 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Hero .paypal {
+        padding: 12px;
+        border-radius: 12px;
+    }
+
+    .Hero .Price_2nd {
+        bottom: 15px;
+    }
+
+    .Hero .avater_Images .carver img {
+        margin-bottom: 74px;
+        height: 59px;
+    }
+
+    .Hero .Price_1st {
+        left: 0%;
+        margin-top: 15px;
+    }
+
+    .Hero .credit {
+        left: 10%;
+        top: 2%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Hero .mobile_circle {
+        top: 70px;
+        margin: 0px 10px;
+    }
+
+    .Hero .paypal {
+        bottom: 0%;
+    }
+
+    .Hero .Price_2nd {
+        bottom: 0px;
+    }
+}
+
+/* ========= End of 1.2. Hero section ========= */
+/* ========= 1.3. Advantages section ========= */
+
+@media screen and (max-width: 1199px) {
+    .Advantages .row h3 {
+        width: max-content;
+    }
+
+    .Advantages .col-lg-5 .d-flex h5 {
+        width: 90%;
+    }
+
+    .Advantages .position-relative img[alt='Dots_lines2'] {
+        width: 5%;
+    }
+
+    .Advantages .Advantages-p {
+        padding: 15px 100px 20px 100px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Advantages .col-lg-5 .gap-lg-3 {
+        width: 100%;
+    }
+
+    .Advantages .col-lg-5 .gap-lg-4 {
+        width: 90%;
+    }
+
+    .Advantages .row h3 {
+        width: 90%;
+    }
+
+    .Advantages .col-lg-5 .d-flex h5 {
+        width: 100%;
+    }
+
+    .Advantages h2 {
+        padding: 0px 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Advantages {
+        padding: 70px 0px 50px 0px;
+    }
+
+    .Advantages .col-lg-5 .gap-lg-4 {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Advantages .col-lg-5 .gap-lg-4 .gap-2 {
+        align-items: center;
+    }
+
+    .Advantages .col-lg-5 .d-flex p {
+        width: 80%;
+        padding: 0px;
+    }
+
+    .Advantages h2 {
+        padding: 0px 70px;
+    }
+
+    .Advantages .Advantages-p {
+        padding: 15px 50px 20px 50px;
+    }
+
+    .Advantages .position-relative img[alt='Dots_lines1'],
+    .Advantages .position-relative img[alt='Dots_lines2'] {
+        width: 7%;
+    }
+
+    .Advantages .row {
+        padding: 30px 0px 50px;
+        gap: 50px 0px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .Advantages {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .Advantages .col-lg-5 .d-flex .gap-2 {
+        width: 100%;
+    }
+
+    .Advantages .row {
+        padding: 40px 0px;
+        gap: 40px 0px;
+    }
+
+    .Advantages h2 {
+        padding: 0px;
+    }
+
+    .Advantages .Advantages-p {
+        padding: 15px 0px 10px 0px;
+    }
+
+    .Advantages .position-relative img[alt='Dots_lines1'],
+    .Advantages .position-relative img[alt='Dots_lines2'] {
+        display: none;
+    }
+
+    .Advantages .row h3,
+    .Advantages .row p {
+        padding-right: 0px;
+    }
+}
+
+/* ========= End of 1.3. Advantages section ========= */
+/* ========= 1.4. Partners section ========= */
+
+@media screen and (max-width: 1199px) {
+    .Partners_Slider img {
+        padding: 10px 40px;
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Partners hr {
+        height: 100px;
+        background: repeating-linear-gradient(to bottom, #1B1125, #1B1117 8px, transparent 10px, transparent 15%);
+    }
+
+    .Partners_Slider img {
+        padding: 10px 20px;
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Partners hr {
+        height: 70px;
+        background: repeating-linear-gradient(to bottom, #1B1125, #1B1117 8px, transparent 10px, transparent 22%);
+    }
+
+    .Partners img {
+        width: 150px;
+    }
+
+    .Partners_Slider {
+        padding: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Partners_Slider {
+        padding: 10px 0px;
+    }
+
+    .Partners hr {
+        height: 40px;
+        background: repeating-linear-gradient(to bottom, #1B1125, #1B1117 8px, transparent 10px, transparent 41%);
+    }
+}
+
+/* ========= End of 1.4. Partners section ========= */
+/* ========= 1.5. Services section ========= */
+
+@media screen and (max-width: 1399px) {
+    .Services .Services_Card {
+        padding: 37px 27px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Services h2 {
+        padding: 0px 100px;
+    }
+
+    .Services .Services_p {
+        padding: 15px 150px 30px 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Services {
+        padding: 70px 0px 0px;
+    }
+
+    .Services h2 {
+        padding: 0px 70px;
+    }
+
+    .Services .Services_p {
+        padding: 15px 50px 25px 50px;
+    }
+
+    .Services img {
+        width: 50px;
+    }
+
+    .About_Services {
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Services {
+        padding: 50px 0px 0px;
+    }
+
+    .Services h2 {
+        padding: 0px;
+    }
+
+    .Services .Services_p {
+        padding: 10px 0px 20px 0px;
+    }
+
+    .Services .Services_Card {
+        width: 90%;
+        margin: auto;
+    }
+
+    .About_Services {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Services .Services_Card {
+        padding: 35px 20px;
+    }
+}
+
+/* ========= End of 1.5. Services section ========= */
+/* ========= End of 1.6. Stats section ========= */
+
+@media screen and (max-width: 1399px) {
+    .Stats img[alt="Mobile"] {
+        width: 100%;
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .Stats img[alt="Mobile"] {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Stats .gap-lg-4 {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Stats .m-0 {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Stats .m-0 {
+        padding: 0px 20px 0px 0px;
+    }
+
+    .Stats .gap-lg-4 {
+        padding: 0px;
+    }
+
+    .Stats img[alt='Mobile'] {
+        width: 100%;
+        top: 100px;
+    }
+
+    .Stats img[alt='Circle_Images'] {
+        width: 100%;
+        top: 100px;
+    }
+
+    .Stats img[alt='Dot_Line'] {
+        top: 0px;
+    }
+
+    .Stats {
+        padding: 70px 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Stats {
+        padding: 20px 0px 50px;
+    }
+
+    .Stats .row {
+        flex-direction: column-reverse;
+    }
+
+    .Stats h2 {
+        color: rgba(27, 17, 23, 1);
+        text-align: center;
+    }
+
+    .Stats p {
+        text-align: center;
+    }
+
+    .Stats .gap-3 {
+        justify-content: center;
+    }
+
+    .Stats .m-0 {
+        padding: 0px;
+    }
+
+    .Stats img[alt='Circle_Images'],
+    .Stats img[alt='Mobile'] {
+        width: 50%;
+        top: 11%;
+        left: 20%;
+    }
+
+    .Stats img[alt='Mobile'] {
+        position: relative;
+    }
+
+    .Stats .gap-lg-4 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .Stats img[alt='Dot_Line'] {
+        width: 30px;
+    }
+
+    .Stats .position-relative {
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .Stats .gap-lg-4 {
+        width: 100%;
+    }
+
+    .Stats img[alt='Dot_Line'] {
+        top: 20px;
+        width: 35px;
+    }
+
+    .Stats img[alt='Circle_Images'],
+    .Stats img[alt='Mobile'] {
+        width: 70%;
+    }
+
+    .Stats {
+        padding: 0px 0px 50px;
+    }
+
+    .Stats img[alt='Circle_Images'],
+    .Stats img[alt='Mobile'] {
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Stats img[alt='Dot_Line'] {
+        width: 5%;
+    }
+}
+
+/* ========= End of 1.6. Stats section ========= */
+/* ========= 1.7. Benefits section ========= */
+
+@media screen and (max-width: 1399px) {
+    .Benefits .me-0 {
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Benefits {
+        padding: 100px 0px;
+    }
+
+    .Benefits .me-0 {
+        padding-right: 0px;
+    }
+
+    .Benefits .credit {
+        left: -3%;
+    }
+
+    .Benefits .Benefits_Card {
+        padding: 25px 35px 25px 20px;
+    }
+
+    .Benefits .position-relative {
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .Benefits .me-0 {
+        padding-right: 0px;
+    }
+
+    .Benefits .Benefits_Card {
+        padding: 25px 25px 25px 20px;
+    }
+
+    .Benefits .credit {
+        left: -2%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Benefits {
+        padding: 70px 0px;
+    }
+
+    .Benefits .Benefits_Card {
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .Benefits img[alt='Circle_Images'] {
+        width: 98%;
+        top: 50%;
+    }
+
+    .Benefits img[alt='Mobile'] {
+        width: 57%;
+        top: 200px;
+    }
+
+    .Benefits .Price {
+        bottom: -19%;
+        left: -3%;
+    }
+
+    .Benefits .credit {
+        top: 25%;
+        left: -5%;
+        padding: 10px;
+    }
+
+    .Benefits .credit i {
+        font-size: 26px;
+    }
+
+    .Benefits .home {
+        padding: 14px 8px;
+        top: 14%;
+    }
+
+    .Benefits .home i {
+        font-size: 25px;
+    }
+
+    .Benefits img[alt='Dot_Line'] {
+        width: 42px;
+        top: 0px;
+        left: 9%;
+    }
+
+    .Benefits .position-relative {
+        top: 14%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Benefits h2 {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .Benefits .position-relative {
+        top: 2%;
+    }
+
+    .Benefits .credit {
+        top: 17%;
+        left: 3%;
+    }
+
+    .Benefits .Price {
+        bottom: 17%;
+        left: 11%;
+    }
+
+    .Benefits img[alt='Circle_Images'] {
+        width: 90%;
+        top: 10%;
+    }
+
+    .Benefits img[alt='Mobile'] {
+        width: 49%;
+        top: 43px;
+    }
+
+    .Benefits img[alt='Dot_Line'] {
+        width: 50px;
+        top: 0px;
+        left: 13%;
+    }
+
+    .Benefits .home {
+        padding: 14px 8px;
+        top: 6%;
+        right: 4%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Benefits .Benefits_Card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Benefits {
+        padding: 50px 0px;
+    }
+
+    .Benefits img[alt='Dot_Line'] {
+        width: 28px;
+        top: 0px;
+        left: 15%;
+    }
+
+    .Benefits .Price .mb-1 {
+        font-size: 32px;
+        line-height: 38px;
+        padding-bottom: 0px;
+    }
+
+    .Benefits .Price {
+        padding: 18px 12px;
+        bottom: 6%;
+        left: 2%;
+        border-radius: 12px;
+    }
+
+    .Benefits img[alt='Circle_Images'] {
+        top: 13%;
+    }
+
+    .Benefits .Price i {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Benefits .credit {
+        top: 14%;
+        left: 0%;
+    }
+
+    .Benefits img[alt='Mobile'] {
+        width: 52%;
+        top: 16px;
+    }
+
+    .Benefits .Price {
+        width: 40%;
+    }
+
+    .Benefits img[alt='Circle_Images'] {
+        width: 90%;
+        top: 12%;
+    }
+
+    .Benefits .Price .mb-1 {
+        font-size: 26px;
+        line-height: 30px;
+        padding-bottom: 0px;
+    }
+
+    .Benefits .Price {
+        width: 40%;
+        left: 0%;
+
+    }
+
+    .Benefits .credit i {
+        font-size: 24px;
+    }
+
+    .Benefits .home i {
+        font-size: 23px;
+    }
+
+    .Benefits .Price i {
+        font-size: 18px;
+    }
+}
+
+/* ========= End of 1.7. Benefits section ========= */
+/* ========= 1.8. Rating section ========= */
+
+@media screen and (max-width: 768px) {
+    .Rating {
+        padding: 0px 0px 70px 0px;
+    }
+
+    .Rating hr {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Rating .gap-2 {
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .Rating .gap-2 p {
+        font-size: 14px;
+    }
+
+    .Rating {
+        padding: 0px 15px 70px 15px;
+    }
+
+    .Rating .gap-2 {
+        width: unset;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Rating {
+        padding: 0px 15px 30px 15px;
+    }
+
+    .Rating .justify-content-around {
+        flex-direction: column;
+        justify-content: center !important;
+    }
+
+    .Rating hr {
+        height: 1.6px;
+        width: 100%;
+    }
+}
+
+/* ========= End of 1.8. Rating section ========= */
+/* ========= 1.9. About_App section ========= */
+
+@media screen and (max-width: 1399px) {
+    .About_App {
+        background-position: 50% 100%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .About_App .About_App_Slider figure img {
+        border-radius: 25px;
+    }
+
+    .About_App {
+        background-position: 50% 70%;
+        background-size: 40% 60%;
+    }
+
+    .About_App .About_App_Slider {
+        padding: 70px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .About_App .About_App_Slider figure img {
+        border-radius: 15px;
+        box-shadow: 1px 2px 3px 2px #0000001A;
+    }
+
+    .About_App .About_App_Slider figure {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .About_App .About_App_Slider figure:nth-child(4),
+    .About_App .About_App_Slider figure:nth-child(5) {
+        display: none;
+    }
+
+    .About_App {
+        background-size: 70% 70%;
+    }
+
+    .About_App .About_App_Slider {
+        padding: 50px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .About_App {
+        background-size: 60% 60%;
+    }
+
+    .About_App .slick-dots {
+        display: none !important;
+    }
+
+    .About_App .w-75 {
+        width: 100% !important;
+    }
+
+    .About_App .About_App_Slider {
+        padding: 30px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .About_App .About_App_Slider figure:nth-child(3) {
+        display: none;
+    }
+
+    .About_App {
+        background-size: 90% 60%;
+        background-position: 50% 60%;
+    }
+}
+
+/* ========= End of 1.9. About_App section ========= */
+/* ========= 1.10. GetApp section ========= */
+
+@media screen and (max-width: 1399px) {
+    .GetApp h1 {
+        padding: 0;
+    }
+
+    .GetApp {
+        margin: 250px 0px 00px 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .GetApp {
+        margin: 115px 0px 100px 0px;
+    }
+
+    .GetApp_Mobiles img:nth-child(2) {
+        bottom: -9%;
+        right: 1%;
+        width: 58%;
+    }
+
+    .GetApp_Mobiles img:first-child {
+        bottom: -8%;
+    }
+
+    .GetApp_Mobiles img:nth-child(3) {
+        bottom: 0%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .GetApp_Mobiles img:first-child {
+        top: -150px;
+    }
+
+    .GetApp_Mobiles img:nth-child(2) {
+        top: -150px;
+    }
+
+    .GetApp_Mobiles img:nth-child(3) {
+        top: -102px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .GetApp_Mobiles img:nth-child(3) {
+        width: 90%;
+        left: 4%;
+        top: unset;
+    }
+
+    .GetApp_Mobiles img:first-child {
+        width: 56%;
+        top: unset;
+    }
+
+    .GetApp_Mobiles img:nth-child(2) {
+        width: 53%;
+        top: unset;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .GetApp {
+        padding: 70px 0px;
+        margin: 115px 0px 70px;
+    }
+
+    .GetApp.mb-0 {
+        margin: 70px 0px;
+    }
+
+    .GetApp_Mobiles img:nth-child(3) {
+        position: relative;
+        bottom: -50px;
+    }
+
+    .GetApp_Mobiles img:first-child {
+        width: 65%;
+        bottom: 0;
+        top: 0;
+    }
+
+    .GetApp_Mobiles img:nth-child(2) {
+        width: 62%;
+        bottom: 0;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .GetApp .row {
+        flex-direction: column-reverse;
+    }
+
+    .GetApp_Mobiles img:nth-child(3) {
+        position: relative;
+        padding: 20px 0px 100px 0px;
+        top: 50px;
+
+    }
+
+    .GetApp_Mobiles img:first-child {
+        width: 58%;
+        top: 50px;
+    }
+
+    .GetApp_Mobiles img:nth-child(2) {
+        width: 56%;
+        top: 50px;
+
+    }
+
+    .GetApp h1 {
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .GetApp_P {
+        padding: 20px 0px 20px 0px;
+        text-align: center;
+    }
+
+    .GetApp .GetApp_Mobiles {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .GetApp {
+        margin: 40px 0px 0px;
+        padding: 50px 0px;
+    }
+
+    .GetApp.mb-0 {
+        margin: 40px 0px 0px;
+    }
+
+    .GetApp .gap-3 {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .GetApp .gap-3 a {
+        width: 180px;
+    }
+}
+
+/* ========= End of 1.10. GetApp section ========= */
+/* ========1.11. Testionials Section ======== */
+
+@media screen and (max-width: 1199px) {
+    .Testimonials .Dots_lines img {
+        left: 25px;
+        width: 5%;
+        height: unset;
+    }
+
+    .Testimonials .Testimonial_Slider .active-content {
+        padding: 20px 150px;
+    }
+
+    .Testimonials .images-container {
+        gap: 20px;
+        padding: 80px 0px 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Testimonials {
+        padding: 0px;
+    }
+
+    .Testimonial_Plan_bg {
+        background-size: 160% 63%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Testimonials .Dots_lines img {
+        left: 10px;
+        width: 4%;
+        top: 300px;
+    }
+
+    .Testimonials .images-container {
+        gap: 15px;
+    }
+
+    .Testimonials .Dots_lines img[alt="Dashed_Line_Right"] {
+        left: 95%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .Testimonial_Plan_bg {
+        background-size: 160% 68%;
+        background-position: bottom;
+    }
+
+    .Testimonials .Dots_lines img[alt="Dashed_Line_Right"] {
+        left: 96%;
+    }
+
+    .Testimonials .Testimonial_Slider .active-content {
+        padding: 20px 50px;
+    }
+
+    .Testimonials .images-container img.active {
+        width: 130px;
+        height: 130px;
+    }
+
+    .Testimonials .images-container img:nth-child(1),
+    .Testimonials .images-container img:nth-child(5) {
+        width: 70px;
+        height: 70px;
+    }
+
+    .Testimonials .images-container img:nth-child(2),
+    .Testimonials .images-container img:nth-child(6) {
+        width: 85px;
+        height: 85px;
+    }
+
+    .Testimonials .images-container img:nth-child(3),
+    .Testimonials .images-container img:nth-child(7) {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Testimonial_Plan_bg {
+        background-size: 500% 85%;
+    }
+
+    .Testimonials .Dots_lines img[alt="Dashed_Line_Right"] {
+        height: 190px;
+        left: 94%;
+    }
+
+    .Testimonials .images-container {
+        gap: 0px;
+    }
+
+    .Testimonials .images-container img.active {
+        width: 115px;
+        height: 115px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .Testimonials .w-75 {
+        width: 100% !important;
+    }
+
+    .Testimonials .images-container img:nth-child(1),
+    .Testimonials .images-container img:nth-child(5) {
+        width: 55px;
+        height: 55px;
+        top: -20px;
+    }
+
+    .Testimonials .images-container img:nth-child(2),
+    .Testimonials .images-container img:nth-child(6) {
+        width: 60px;
+        height: 60px;
+        top: 50px
+    }
+
+    .Testimonials .images-container img:nth-child(3),
+    .Testimonials .images-container img:nth-child(7) {
+        width: 45px;
+        height: 45px;
+    }
+
+    .Testimonials .images-container img.active {
+        width: 90px;
+        height: 90px;
+    }
+
+    .Testimonials .Testimonial_Slider .active-content {
+        padding: 10px;
+    }
+
+    .Testimonials .dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    .Testimonials .images-container {
+        gap: 10px;
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Testimonials {
+        padding: 50px 0px 0px;
+    }
+
+    .Testimonial_Plan_bg {
+        background-size: 458% 87%;
+        background-position: 88% 192%;
+    }
+
+    .Testimonials .images-container img:nth-child(1),
+    .Testimonials .images-container img:nth-child(5) {
+        width: 45px;
+        height: 45px;
+        top: -10px;
+    }
+
+    .Testimonials .images-container img.active {
+        width: 75px;
+        height: 75px;
+    }
+
+    .Testimonials .images-container img:nth-child(2),
+    .Testimonials .images-container img:nth-child(6) {
+        width: 45px;
+        height: 45px;
+        top: 40px;
+    }
+
+    .Testimonials .images-container {
+        gap: 8px;
+    }
+
+    .Testimonials .images-container img:nth-child(3),
+    .Testimonials .images-container img:nth-child(7) {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Testimonials .images-container {
+        gap: 5px;
+    }
+
+    .Testimonials .container {
+        padding: 0px;
+    }
+
+    .Testimonials .images-container img.active {
+        width: 60px;
+        height: 60px;
+    }
+
+    .Testimonials .images-container img:nth-child(1),
+    .Testimonials .images-container img:nth-child(5) {
+        width: 35px;
+        height: 35px;
+    }
+
+    .Testimonials .images-container img:nth-child(2),
+    .Testimonials .images-container img:nth-child(6) {
+        width: 30px;
+        height: 30px;
+        top: 40px;
+    }
+}
+
+/* ========End of 1.11. Testionials Section ======== */
+/* ======== 1.12 Plan Section ======== */
+
+@media screen and (max-width: 1399px) {
+    .Plan .Plan-p {
+        padding: 10px 220px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Plan .Plan-p {
+        padding: 10px 150px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Plan .hover1 {
+        padding: 16px 35px;
+    }
+
+    .Plan .Plan-p {
+        padding: 10px 100px;
+    }
+
+    .Plan .plan-Card a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Plan {
+        padding: 70px 0px;
+    }
+
+    .Plan h2 {
+        margin: 10px 0px;
+    }
+
+    .Plan .plan-Card {
+        padding: 25px 15px;
+    }
+
+
+    .Plan .Plan-p {
+        padding: 0px 100px;
+        margin-bottom: 20px;
+    }
+
+    .Plan h1 {
+        padding: 0px 50px;
+    }
+
+    .Plan .plan-Card {
+        padding: 35px 30px;
+    }
+
+    .Plan .col-lg-4:nth-child(2) .plan-Card {
+        padding: 50px 30px 60px;
+    }
+
+    .Plan .plan-Card h3 {
+        left: -30px;
+    }
+
+    .Plan .col-lg-4:nth-child(2) .plan-Card h3 {
+        top: -2px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Plan .plan-Card {
+        padding: 45px 50px;
+        border-radius: 40px;
+        box-shadow: none;
+    }
+
+    .Plan .plan-Card h3 {
+        top: 10px;
+    }
+
+    .Plan .col-lg-4 .plan-Card h3 {
+        left: -50px;
+        top: 10px;
+    }
+
+    .Plan .col-lg-4:nth-child(2) .plan-Card h3 {
+        top: 13px;
+    }
+
+    .Plan .col-lg-4:nth-child(2) .plan-Card {
+        padding: 45px 50px;
+        position: static;
+        box-shadow: unset;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Plan h2 {
+        margin: 10px 0px;
+    }
+
+    .Plan .Plan-p {
+        padding: 0px;
+    }
+
+    .Plan {
+        padding: 50px 0px;
+    }
+
+    .Plan .col-lg-4:nth-child(2) .flex-column {
+        margin: 16px 0 0;
+    }
+}
+
+
+/* ======== End of 1.12 Plan Section ======== */
+/* ======== 1.13 FAQ Section ======== */
+
+@media screen and (max-width: 1399px) {
+    .FAQ .Payment {
+        position: absolute;
+        right: 41%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .FAQ .FAQ_Search {
+        right: 0%;
+        bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .FAQ .accordion {
+        height: 500px;
+    }
+
+    .FAQ .Payment {
+        position: absolute;
+        right: 30%;
+        width: 280px;
+    }
+
+    .FAQ .Dot_Lines {
+        bottom: 130px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .FAQ .mt-lg-5 {
+        margin-top: 3rem !important;
+    }
+
+    .FAQ .col-lg-5 img[alt="FAQ_Img"] {
+        width: 50%;
+        margin: auto;
+    }
+
+    .FAQ .home {
+        right: 20%;
+        bottom: 400px;
+    }
+
+    .FAQ .FAQ_Search {
+        right: 15%;
+        bottom: 287px;
+    }
+
+    .FAQ .credit {
+        bottom: 120px;
+        left: 18%;
+    }
+
+    .FAQ .Payment {
+        justify-content: space-around !important;
+        padding: 10px 0px;
+    }
+
+    .FAQ .Dot_Lines {
+        bottom: 150px;
+        left: 26%;
+        width: 7%;
+    }
+
+    .FAQ .col-lg-5 {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .FAQ {
+        padding: 70px 0px;
+    }
+
+    .FAQ .home {
+        right: 20%;
+        bottom: 230px;
+    }
+
+    .FAQ .FAQ_Search {
+        right: 4%;
+        bottom: 150px;
+        transform: scale(.6);
+    }
+
+    .FAQ .Payment,
+    .FAQ .credit,
+    .FAQ .home {
+        transform: scale(.7);
+    }
+
+    .FAQ .accordion {
+        height: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .FAQ {
+        padding: 50px 0px;
+    }
+
+    .FAQ .w-75 {
+        width: 100% !important;
+    }
+
+    .FAQ .text-center {
+        padding: 0px;
+    }
+
+    .FAQ .home {
+        bottom: 180px;
+    }
+
+    .FAQ .FAQ_Search {
+        right: 1%;
+        bottom: 125px;
+    }
+
+    .FAQ .Payment,
+    .FAQ .credit,
+    .FAQ .home {
+        transform: scale(0.6);
+    }
+
+    .FAQ .col-lg-5 img[alt="FAQ_Img"] {
+        width: 90%;
+    }
+
+    .FAQ .credit {
+        left: 6%;
+    }
+
+    .FAQ .Dot_Lines {
+        bottom: 200px;
+        left: 7%;
+        width: 10%;
+    }
+
+    .FAQ .accordion-button,
+    .FAQ .accordion-button:not(.collapsed) {
+        padding: 15px;
+        gap: 15px;
+        font-size: 14px;
+    }
+
+    .FAQ .accordion-body {
+        padding: 25px 40px 0px 24px;
+        margin: 0px;
+    }
+
+    .FAQ .accordion {
+        width: 100%;
+    }
+
+    .FAQ .accordion-header h4 {
+        font-size: 16px;
+    }
+
+    .FAQ .accordion-body h5 {
+        font-size: 12px;
+    }
+
+    .FAQ .accordion-button i {
+        font-size: 22px;
+    }
+
+    .FAQ .mt-lg-5 {
+        margin-top: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .FAQ .Payment {
+        right: 0px;
+        bottom: 10px;
+        width: 270px;
+    }
+
+    .FAQ .Dot_Lines {
+        bottom: 150px;
+        left: 10%;
+    }
+
+    .FAQ .FAQ_Search {
+        right: -13%;
+        bottom: 75px;
+    }
+
+    .FAQ .home {
+        bottom: 125px;
+    }
+}
+
+/* ======== End of 1.13 FAQ Section ======== */
+/* ======== 1.14 Community Section ======== */
+
+@media screen and (max-width: 991px) {
+    .Community .gap-lg-5 div {
+        width: 30%;
+        padding: 55px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .Community .mt-lg-4 {
+        padding: 400px 10px 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .Community .mt-lg-4 {
+        padding: 500px 10px 0px;
+    }
+
+    .Community .w-75 {
+        width: 100% !important;
+    }
+
+    .Community .text-center {
+        padding: 0px 10px;
+    }
+
+    .Community .gap-lg-5 {
+        flex-direction: column;
+    }
+
+    .Community .gap-lg-5 div {
+        width: 95%;
+        text-align: center;
+        padding: 20px 0px;
+        border-radius: 20px;
+    }
+
+    .Community .gap-lg-5 div h4 {
+        font-size: 20px;
+    }
+}
+
+/* ======== End of 1.14 Community Section ======== */
+
+/* ======== End of 1.14 Community Section ======== */
+/* ======== 1.15. Register section ======== */
+
+@media screen and (max-width: 1399px) {
+    .Register .row {
+        padding: 40px 30px;
+    }
+
+    .Register .col-lg-5 figure img {
+        width: 106%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .Register .col-lg-5 figure img {
+        width: 100%;
+    }
+
+    .Register form {
+        margin-top: 3rem;
+    }
+
+    .Register .col-lg-7 h1,
+    .Register .col-lg-7 p {
+        padding-right: 46px;
+    }
+
+    .Register .col-lg-5 figure {
+        top: -70px;
+        left: -5px;
+    }
+
+    .Register .col-lg-5 figure {
+        background-size: 75%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Register .row {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .Register .container {
+        padding: 0px 40px;
+    }
+
+    .Register .col-lg-5 figure {
+        background-size: 45%;
+        display: flex;
+        position: relative !important;
+        justify-content: center;
+        margin-top: 2rem;
+        top: 0px;
+    }
+
+    .Register .col-lg-5 figure img {
+        width: 50%;
+    }
+
+    .Register .w-75 {
+        width: 81% !important;
+    }
+
+    .Register .row {
+        padding: 50px 0px 0px;
+        flex-direction: column-reverse;
+    }
+
+    .Register .col-lg-7 {
+        padding: 0px 32px;
+        text-align: center;
+    }
+
+    .Register .col-lg-7 h1,
+    .Register .col-lg-7 p {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Register {
+        padding: 70px 0px 0px;
+    }
+
+    .Register form {
+        margin-top: 2rem;
+    }
+
+    .Register .hover2 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Register {
+        padding: 50px 0px 0px;
+    }
+
+    .Register .container {
+        padding: 0px 20px;
+    }
+
+    .Register .col-lg-5 figure img {
+        width: 75%;
+    }
+
+    .Register .col-lg-5 figure {
+        background-size: 72%;
+        margin-top: 1rem;
+    }
+
+    .Register .col-lg-7 {
+        padding: 0px 15px;
+    }
+
+    .Register form {
+        margin-top: 2rem;
+        flex-direction: column;
+        gap: 15px !important;
+    }
+
+    .Register .hover2 {
+        width: 100%;
+        display: inline-block;
+        padding: 19px 50px;
+    }
+
+    .Register .w-100 div,
+    .Register .w-75 {
+        width: 100% !important;
+    }
+
+    .Register .row {
+        border-radius: 25px;
+    }
+}
+
+/* ======== End of 1.15. Register section ======== */
+/* ======== 1.16. Footer section ======== */
+
+@media screen and (max-width:480px) {
+    footer ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer img[alt="footer_Logo"] {
+        transform: scale(0.8);
+    }
+
+    footer {
+        padding: 30px 0px 0px;
+    }
+}
+
+/* ======== End of 1.16. Footer section ======== */
+/* ======== 2.1. About_Hero section ======== */
+
+@media screen and (max-width:1199px) {
+    .About_Hero .Price_1st {
+        left: 0px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .About_Hero .pe-lg-3 {
+        text-align: center;
+    }
+
+    .About_Hero figure {
+        background-size: 600px;
+        margin-top: 3rem;
+    }
+
+    .About_Hero .credit {
+        left: 5%;
+        bottom: 475px;
+    }
+
+    .About_Hero .home {
+        right: 6%;
+        bottom: 550px;
+    }
+
+    .About_Hero .Dotted_Line {
+        left: 15%;
+    }
+
+    .About_Hero .Price_1st {
+        left: 6%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .About_Hero {
+        padding: 70px 0px;
+    }
+
+    .About_Hero .home,
+    .About_Hero .credit {
+        height: 60px;
+        width: 60px;
+    }
+
+    .About_Hero .home i,
+    .About_Hero .credit i {
+        font-size: 30px;
+    }
+
+    .About_Hero .Price_1st {
+        left: 15%;
+    }
+
+    .About_Hero .Price_1st h2,
+    .About_Hero .Price_1st p {
+        padding: 0px;
+    }
+
+    .About_Hero .Dotted_Line {
+        left: 14%;
+        bottom: 305px;
+    }
+
+    .About_Hero figure {
+        background-size: 400px;
+    }
+
+    .About_Hero figure img {
+        width: 310px;
+    }
+
+    .About_Hero .avater_Images .member {
+        height: 80px;
+    }
+
+    .About_Hero p,
+    .About_Hero h2 {
+        padding: 0 21px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .About_Hero .Dotted_Line {
+        left: 8%;
+        bottom: 266px;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .About_Hero {
+        padding: 50px 0px;
+    }
+
+    .About_Hero .gap-5 {
+        gap: 25px !important;
+    }
+
+    .About_Hero .gap-5 p,
+    .About_Hero .gap-5 h2 {
+        padding: 0px;
+    }
+
+    .About_Hero .flex-column h4 {
+        padding: 18px 0px 14px;
+    }
+
+    .About_Hero .Price_1st h2 {
+        font-size: 30px;
+    }
+
+    .About_Hero .Price_1st {
+        padding: 16px;
+        border-radius: 15px;
+        left: 0px;
+    }
+
+    .About_Hero .home {
+        transform: scale(0.9);
+        bottom: 430px;
+    }
+
+    .About_Hero figure img {
+        width: 250px;
+    }
+
+    .About_Hero .Dotted_Line {
+        bottom: 195px;
+        transform: scale(0.8);
+    }
+
+    .About_Hero .credit {
+        transform: scale(0.9);
+        bottom: 370px;
+        left: 0px;
+    }
+
+    .About_Hero figure {
+        background-size: 90%;
+        margin-top: 4rem;
+    }
+
+    .About_Hero .avater_Images .member {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .About_Hero .avater_Images .member {
+        height: 100px;
+    }
+
+    .About_Hero p,
+    .About_Hero h2 {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .About_Hero figure {
+        background-size: 100%;
+    }
+}
+
+/* ======== End of 2.1. About_Hero section ======== */
+/* ======== 2.2. Team section ======== */
+
+@media screen and (max-width:991px) {
+    .Team .position-absolute p {
+        height: 40px;
+    }
+
+    .Team .Team_social-icons {
+        margin-top: 0px;
+    }
+
+    .Team .position-relative:hover .position-absolute {
+        height: 125px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Team {
+        padding: 70px 0px;
+    }
+
+    .Team .Team_social-icons a {
+        font-size: 14px;
+    }
+
+    .Team .position-relative img {
+        border-radius: 15px;
+    }
+
+    .Team .position-absolute {
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .Team .col-lg-3 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .Team .row {
+        gap: 25px 0px;
+    }
+
+    .Team .position-absolute p {
+        height: unset;
+    }
+
+    .Team .row {
+        gap: 25px 0px;
+    }
+
+    .Team .Team_social-icons {
+        margin-top: 15px;
+    }
+
+    .Team .position-absolute {
+        height: 85px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Team .col-lg-3 {
+        width: 100%;
+    }
+
+    .Team .position-absolute {
+        height: 75px;
+    }
+
+    .Team {
+        padding: 50px 0px;
+    }
+
+    .Team .position-relative {
+        width: 75%;
+        margin-inline: auto;
+    }
+
+    .Team .position-absolute {
+        padding: 10px !important;
+    }
+}
+
+/* ======== End of 2.2. Team section ======== */
+/* ======== 3.1. Subpage_Hero section ======== */
+
+@media screen and (max-width:480px) {
+    .Subpage_Hero {
+        padding: 50px 0px;
+    }
+}
+
+/* ======== End of 3.1. Subpage_Hero section ======== */
+/* ======== 3.1. Contact section ======== */
+
+@media screen and (max-width:991px) {
+    .Contact .hover3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Contact iframe {
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Contact {
+        padding: 70px 0px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Contact {
+        padding: 50px 0px;
+        text-align: center;
+    }
+
+    .Contact .gap-sm-4 {
+        flex-direction: column;
+    }
+
+    .Contact .w-50 {
+        width: 100% !important;
+    }
+}
+
+/* ======== End of 3.1. Contact section ======== */
+/* ======== 3.2. Contact_Info section ======== */
+
+@media screen and (max-width:1199px) {
+    .Contact_Info .text-center {
+        padding: 60px 40px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .Contact_Info .text-center {
+        padding: 60px 10px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .Contact_Info .row {
+        gap: 35px;
+    }
+}
+
+
+
+/* ======== End of 3.2. Contact_Info section ======== */
+/* ======== 5.1. Blog section ======== */
+
+@media screen and (max-width:1199px) {
+
+    .Blog .p-0,
+    .Blog .ps-1 {
+        padding-right: 10px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Blog {
+        padding: 70px 0px 0px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Blog {
+        padding: 50px 0px 0px;
+    }
+
+    .Blog .ps-1,
+    .Blog .justify-content-between p {
+        font-size: 12px;
+    }
+}
+
+/* ======== End of 5.1. Blog section ======== */
+/* ======== 6.1. Blog_Detail section ======== */
+
+@media screen and (max-width:768px) {
+    .Blog_Detail {
+        padding: 70px 0px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Blog_Detail {
+        padding: 50px 0px;
+    }
+}
+
+/* ======== End of 6.1. Blog_Detail section ======== */
+/* ======== 6.2. Reply section ======== */
+
+@media screen and (max-width:991px) {
+    .Reply .hover3 {
+        width: 100%;
+    }
+}
+
+/* ======== End of 6.2. Reply section ======== */
+/* ======== 8.1. Clients section ======== */
+
+@media screen and (max-width:1199px) {
+    .Clients .justify-content-between {
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .Clients .justify-content-around {
+        padding: 30px 15px 30px 10px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .Clients .justify-content-between {
+        gap: 25px;
+    }
+
+    .Clients .justify-content-around {
+        padding: 15px 120px 15px 0px;
+        justify-content: center !important;
+        width: 100%;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Clients {
+        padding: 70px 0px 0px;
+    }
+
+    .Clients figure {
+        width: 50%;
+    }
+
+    .Clients .justify-content-around {
+        padding: 15px 30px 15px 0px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Clients {
+        padding: 50px 0px 0px;
+    }
+
+    .Clients .justify-content-around {
+        padding: 5px 10px 15px 0px;
+        gap: 15px;
+    }
+
+    .Clients .justify-content-between {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .Clients figure {
+        width: 100%;
+        height: 380px;
+    }
+
+    .Clients .col-lg-6 {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .Clients figure {
+        height: 300px;
+    }
+
+    .Clients .col-lg-6 {
+        width: 100%;
+    }
+}
+
+/* ======== End of 8.1. Clients section ======== */
+/* ======== 10.1. Features section ======== */
+
+@media screen and (max-width:1199px) {
+    .Features .justify-content-between p {
+        width: 90%;
+    }
+
+    .Features .justify-content-between {
+        border-radius: 25px;
+    }
+
+    .Features .justify-content-between img {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Features {
+        padding: 70px 0px 0px;
+    }
+
+    .Features .justify-content-between p {
+        width: 100%;
+    }
+
+    .Features .justify-content-between {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Features {
+        padding: 50px 0px 0px;
+    }
+
+    .Features .justify-content-between {
+        padding: 30px 40px 30px;
+    }
+}
+
+/* ======== End of 10.1. Features section ======== */
+/* ======== 11.1. ComingSoon section ======== */
+
+@media screen and (max-width:1440px) {
+    .ComingSoon h2 {
+        width: unset;
+        line-height: 1;
+    }
+
+    .ComingSoon .gap-lg-3 .w-50 {
+        width: 75% !important;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .ComingSoon .position-absolute img {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .ComingSoon h2 {
+        font-size: 75px;
+    }
+
+    .ComingSoon {
+        padding: 100px 40px;
+    }
+
+    .ComingSoon .position-absolute img {
+        width: 40px;
+    }
+
+    .ComingSoon .gap-lg-3 {
+        position: relative;
+        bottom: -60px;
+    }
+
+    .ComingSoon .bottom-0 {
+        bottom: -50px !important;
+    }
+
+    .ComingSoon .top-0 {
+        top: -50px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .ComingSoon .d-flex:first-child {
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ComingSoon .w-50:first-child {
+        width: 100% !important;
+    }
+
+    .ComingSoon .position-relative .w-50 {
+        width: 40% !important;
+    }
+
+    .ComingSoon .position-absolute img {
+        width: 25px;
+    }
+
+    .ComingSoon .gap-lg-3 {
+        bottom: 0px;
+        align-items: center;
+    }
+
+    .ComingSoon .bottom-0 {
+        bottom: 0px !important;
+    }
+
+    .ComingSoon .top-0 {
+        top: 0px !important;
+    }
+
+    .ComingSoon {
+        padding: 70px 20px;
+    }
+
+    .ComingSoon .w-50,
+    .ComingSoon .w-75 {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .ComingSoon {
+        padding: 0px 10px 40px;
+    }
+
+    .ComingSoon .position-relative .w-50 {
+        width: 50% !important;
+    }
+
+    .ComingSoon .position-absolute img {
+        width: 20px;
+    }
+
+    .ComingSoon .d-flex:first-child {
+        gap: 25px;
+    }
+
+    .ComingSoon .w-50 {
+        width: 100% !important;
+    }
+
+    .ComingSoon .bottom-0 {
+        top: 15% !important;
+    }
+}
+
+/* ======== End of 11.1. ComingSoon section ======== */
+/* ======== 12.1. Error_404 section ======== */
+
+@media screen and (max-width:1400px) {
+    .Error_404 h2 {
+        line-height: 0.1;
+    }
+
+    .Error_404 .top-0 {
+        top: 10% !important;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .Error_404 .gap-lg-3 {
+        bottom: -40px;
+    }
+
+    .Error_404 h2 {
+        font-size: 150px;
+        line-height: 0.3;
+    }
+
+    .Error_404 .top-0 {
+        top: 25% !important;
+    }
+
+    .Error_404 .bottom-0 {
+        top: 8% !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Error_404 .gap-lg-3 {
+        bottom: -40px;
+        width: 100% !important;
+    }
+
+    .Error_404 .d-flex:first-child {
+        flex-direction: column-reverse;
+    }
+
+    .Error_404 img.w-100 {
+        width: 80% !important;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Error_404 .position-absolute img {
+        width: 20px;
+    }
+
+    .Error_404 .bottom-0 {
+        top: 40px !important;
+    }
+
+    .Error_404 h2 {
+        line-height: 0.5;
+    }
+
+    .Error_404 .top-0 {
+        bottom: 40px !important;
+    }
+
+    .Error_404 .d-flex:first-child {
+        align-items: center !important;
+    }
+}
+
+/* ======== End of 12.1. Error_404 section ======== */

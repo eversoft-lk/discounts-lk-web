@@ -10,8 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/scripts": "^0.9.5",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
     "nuxt": "^3.13.2",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7"
   }
 }
