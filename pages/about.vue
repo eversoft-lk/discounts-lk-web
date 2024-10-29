@@ -5,23 +5,22 @@
         <div class="col-lg-6">
           <div class="d-flex flex-column gap-3 pe-lg-3">
             <div class="d-flex flex-column pe-lg-5" data-aos="fade-up">
-              <h2>You Can Find Your Sweet Home Hassle Free</h2>
-              <h4>Story</h4>
+              <h2>DiscountsLK</h2>
+              <h4>About</h4>
               <p class="pe-lg-5">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took. Lorem
-                Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took. Lorem Ipsum is simply dummy text of the printing
-                and typesetting industry.
+                Welcome to DiscountsLK, Sri Lanka’s top platform for local
+                savings! Our mission is to connect you with unbeatable discounts
+                from nearby stores, restaurants, and services—all within a 5KM
+                radius. With just a few taps, you can discover exclusive deals
+                and start saving.
               </p>
               <p class="mt-3 pe-lg-5">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took..
+                <b>Why Choose DiscountsLK?</b>
+                Finding deals has never been easier. Search by category or
+                location to access fantastic offers tailored to your needs.
+                Whether you're dining, shopping, or exploring new experiences,
+                DiscountsLK makes it easy to enjoy the best of Sri Lanka while
+                saving on what you love most.
               </p>
             </div>
             <hr data-aos="fade-up" />
@@ -96,10 +95,7 @@
               <i class="fa-solid fa-house"></i>
             </div>
             <div class="Dotted_Line position-absolute">
-              <img
-                src="/images/icon/dotedLine_Stats.svg"
-                alt="dotedLine"
-              />
+              <img src="/images/icon/dotedLine_Stats.svg" alt="dotedLine" />
             </div>
           </div>
         </div>
@@ -195,11 +191,12 @@
   <!-- ======== 1.5. Services section ========  -->
   <section class="Services About_Services">
     <div class="container">
-      <h2 data-aos="fade-up">How Can We Help You with Appific</h2>
+      <h2 data-aos="fade-up">Exclusive Offers with Sponsored Discounts</h2>
       <p class="Services_p" data-aos="fade-up">
-        Lorem ipsum dolor sit amet consectetur. Tincidunt nunc ac phasellus
-        amet. Risus est faucibus placerat sed vestibulum orci in vulputate
-        pellentesque.
+        Our Sponsored Discounts feature highlights top deals from local
+        businesses, so you never miss out on the latest offers. We curate the
+        best discounts for easy access, helping you stay ahead of every exciting
+        promotion right at your fingertips.
       </p>
       <div class="row d-flex gap-md-0 gap-4 mt-lg-5">
         <div class="col-lg-4 col-md-4 d-flex">
@@ -207,10 +204,10 @@
             <div class="mb-2">
               <img src="/images/icon/Easily_Manage.png" alt="Manage" />
             </div>
-            <h4>Easily Manage</h4>
+            <h4>Boost Business Visibility</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Tincidunt nunc ac
-              phasellus amet. Risus est faucibus placerat sed vestibulum.
+              For businesses, reach more customers and drive foot traffic with
+              exclusive offers.
             </p>
             <div class="mt-2">
               <a class="hover4" href="Features.html">Learn More</a>
@@ -222,10 +219,10 @@
             <div class="mb-2">
               <img src="/images/icon/Find_Easily.svg" alt="Find_Easily" />
             </div>
-            <h4>Find Home Easily</h4>
+            <h4>Quick Local Savings</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Tincidunt nunc ac
-              phasellus amet. Risus est faucibus placerat sed vestibulum.
+              Easily find exclusive deals within a 5KM radius, saving you time
+              and money.
             </p>
             <div class="mt-2">
               <a class="hover4" href="Features.html">Learn More</a>
@@ -235,15 +232,12 @@
         <div class="col-lg-4 col-md-4 d-flex">
           <div class="Services_Card" data-aos="flip-left">
             <div class="mb-2">
-              <img
-                src="/images/icon/Quick_Messege.svg"
-                alt="Quick_Messege"
-              />
+              <img src="/images/icon/Quick_Messege.svg" alt="Quick_Messege" />
             </div>
-            <h4>Quick Messaging</h4>
+            <h4>Top Deals Highlighted</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Tincidunt nunc ac
-              phasellus amet. Risus est faucibus placerat sed vestibulum.
+              Sponsored Discounts showcase the best local offers, handpicked for
+              you.
             </p>
             <div class="mt-2">
               <a class="hover4" href="Features.html">Learn More</a>
@@ -323,9 +317,10 @@
           <div data-aos="fade-up">
             <h1>Download Latest Version Of The App From</h1>
             <p class="GetApp_P">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took.
+              Ready to start saving? Download the latest version of the
+              DiscountsLK app today and enjoy instant access to exclusive local
+              discounts wherever you go. Simply download the app and unlock
+              incredible savings at your favorite stores.
             </p>
             <div
               class="d-flex gap-lg-4 gap-3 justify-content-md-start justify-content-center"
@@ -545,9 +540,8 @@
           <div data-aos="fade-up">
             <h1 class="mb-lg-4 mb-3">Get The App Register Now!</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took.
+              Unlock exclusive local discounts with ease. Download the app,
+              register, and start saving at your favorite nearby stores today!
             </p>
             <form
               action="https://html-templates.evonicmedia.com/"
