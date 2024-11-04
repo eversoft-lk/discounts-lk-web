@@ -1,3 +1,6 @@
+<script setup>
+import CountUp from "vue-countup-v3";
+</script>
 <template>
   <section class="Plan">
     <div class="container">
@@ -20,7 +23,7 @@
             </div>
             <div class="d-flex flex-column gap-lg-4 gap-3 mt-5">
               <div class="d-flex align-items-center">
-                <h2 class="flex">
+                <h2 class="d-flex">
                   $<count-up class="number" :end-val="24">0</count-up>
                 </h2>
                 <p class="pt-lg-2 pt-md-2 pt-1">&nbsp; /Per Month</p>
@@ -61,7 +64,7 @@
             </div>
             <div class="d-flex flex-column gap-md-4 gap-3 mt-5">
               <div class="d-flex align-items-center pb-lg-3 mt-md-4">
-                <h2 class="flex">
+                <h2 class="d-flex">
                   $<count-up class="number" :end-val="35">0</count-up>
                 </h2>
                 <p class="pt-lg-2 pt-md-2 pt-1">&nbsp; /Per Month</p>
@@ -102,7 +105,7 @@
             </div>
             <div class="d-flex flex-column gap-lg-4 gap-3 mt-5">
               <div class="d-flex align-items-center">
-                <h2 class="flex">
+                <h2 class="d-flex">
                   $<count-up class="number" :end-val="50">0</count-up>
                 </h2>
                 <p class="pt-lg-2 pt-md-2 pt-1">&nbsp; /Per Month</p>

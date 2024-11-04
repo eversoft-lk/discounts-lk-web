@@ -19,8 +19,9 @@
         >
           <h2>Amazing Features</h2>
           <p class="mt-3">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Explore the powerful features that make saving easy with
+            DiscountsLK. From personalized searches to real-time support,
+            discover how DiscountsLK transforms your local shopping experience!
           </p>
         </div>
         <div class="col-lg-6">
@@ -32,10 +33,12 @@
               <img src="/images/icon/Easily_Manage.png" alt="feature" />
             </figure>
             <div class="d-flex flex-column gap-lg-3 gap-2">
-              <h4>Easy to Setup Account</h4>
+              <h4>Smart Search</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Tincidunt nunc ac
-                phasellus amet. Risus est faucibus placerat sed vestibulum.
+                Search discounts by category, product, or store for personalized
+                savings. Filter deals by your specific interests, making it
+                simple to find relevant discounts for a streamlined savings
+                experience.
               </p>
             </div>
           </div>
@@ -49,10 +52,11 @@
               <img src="/images/icon/Find_Easily.svg" alt="feature" />
             </figure>
             <div class="d-flex flex-column gap-lg-3 gap-2">
-              <h4>Find Home Easily</h4>
+              <h4>User-Friendly Interface</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Tincidunt nunc ac
-                phasellus amet. Risus est faucibus placerat sed vestibulum.
+                Enjoy an easy-to-use platform designed for seamless navigation.
+                DiscountsLK’s intuitive design makes finding and redeeming deals
+                quick and effortless, perfect for users of all tech levels.
               </p>
             </div>
           </div>
@@ -66,10 +70,11 @@
               <img src="/images/icon/Home_Icon.png" alt="feature" />
             </figure>
             <div class="d-flex flex-column gap-lg-3 gap-2">
-              <h4>Broad Property Listing</h4>
+              <h4>Sponsored Discounts</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Tincidunt nunc ac
-                phasellus amet. Risus est faucibus placerat sed vestibulum.
+                Access exclusive deals from top local businesses. Get featured
+                discounts from popular stores and restaurants, bringing the best
+                local offers right to your app.
               </p>
             </div>
           </div>
@@ -83,10 +88,12 @@
               <img src="/images/icon/Easily_Manage.png" alt="feature" />
             </figure>
             <div class="d-flex flex-column gap-lg-3 gap-2">
-              <h4>Advanced search options</h4>
+              <h4>Personalized Notifications</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Tincidunt nunc ac
-                phasellus amet. Risus est faucibus placerat sed vestibulum.
+                Receive alerts for new discounts on your favorite products and
+                stores. Stay in the loop with real-time notifications for
+                discounts that match your preferences, helping you save on what
+                matters most.
               </p>
             </div>
           </div>
@@ -100,10 +107,11 @@
               <img src="/images/icon/calculator.svg" alt="feature" />
             </figure>
             <div class="d-flex flex-column gap-lg-3 gap-2">
-              <h4>Mortgage Calculator</h4>
+              <h4>Wishlist & Save for Later</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Tincidunt nunc ac
-                phasellus amet. Risus est faucibus placerat sed vestibulum.
+                Bookmark favorite discounts for easy access later. Save deals
+                you love to your Wishlist, so you can return and redeem them
+                whenever convenient.
               </p>
             </div>
           </div>
@@ -117,10 +125,11 @@
               <img src="/images/icon/customerSupport.png" alt="feature" />
             </figure>
             <div class="d-flex flex-column gap-lg-3 gap-2">
-              <h4>24hrs Customer Support</h4>
+              <h4>24/7 Chat Support</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Tincidunt nunc ac
-                phasellus amet. Risus est faucibus placerat sed vestibulum.
+                Our team is available anytime to assist with questions or
+                issues. Get support at any hour from our dedicated chat team, so
+                you’re never left wondering about app features or deals.
               </p>
             </div>
           </div>
@@ -134,10 +143,11 @@
               <img src="/images/icon/Quick_Messege.svg" alt="feature" />
             </figure>
             <div class="d-flex flex-column gap-lg-3 gap-2">
-              <h4>Quick Messaging</h4>
+              <h4>Local Discounts</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Tincidunt nunc ac
-                phasellus amet. Risus est faucibus placerat sed vestibulum.
+                Discover discounts within a 5KM radius of your location. Stay
+                updated with promotions from nearby stores and restaurants,
+                helping you save while shopping close to home.
               </p>
             </div>
           </div>
@@ -151,10 +161,11 @@
               <img src="/images/icon/Payment_Method.png" alt="feature" />
             </figure>
             <div class="d-flex flex-column gap-lg-3 gap-2">
-              <h4>Secure Payment Method</h4>
+              <h4>In-App Maps Integration</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Tincidunt nunc ac
-                phasellus amet. Risus est faucibus placerat sed vestibulum.
+                Locate nearby discounts with integrated maps. Easily find the
+                exact location of each offer with in-app map support, so you
+                know where to go for the best local savings.
               </p>
             </div>
           </div>

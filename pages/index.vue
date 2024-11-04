@@ -62,7 +62,7 @@ import CountUp from "vue-countup-v3";
             </div>
             <div>
               <p>Monthly</p>
-              <span class="flex"
+              <span class="d-flex"
                 >$<count-up
                   :end-val="2000"
                   class="number"
@@ -88,7 +88,7 @@ import CountUp from "vue-countup-v3";
             <div><i class="fa-solid fa-bolt fa-lg"></i></div>
             <div>
               <p>Minimum Premium</p>
-              <span class="flex"
+              <span class="d-flex"
                 >$<count-up class="number" :end-val="2500"></count-up
                 >/Month</span
               >
@@ -117,7 +117,7 @@ import CountUp from "vue-countup-v3";
           <img src="/images/index/Hero_member-3.webp" alt="Hero_member" />
           <img src="/images/index/Hero_member-4.webp" alt="Hero_member" />
         </div>
-        <p class="flex gap-1">
+        <p class="d-flex gap-1">
           Join Over <count-up class="number" :end-val="50000">0</count-up>+
           Members
         </p>
@@ -271,13 +271,13 @@ import CountUp from "vue-countup-v3";
             <hr />
             <div class="d-flex gap-lg-5 gap-md-4 gap-3">
               <div>
-                <h2 class="flex">
+                <h2 class="d-flex">
                   <count-up class="number" :end-val="135">0</count-up>M+
                 </h2>
                 <p>App Downloads</p>
               </div>
               <div>
-                <h2 class="flex">
+                <h2 class="d-flex">
                   <count-up class="number" :end-val="200">0</count-up>M+
                 </h2>
                 <p>User Reviews</p>
@@ -375,8 +375,8 @@ import CountUp from "vue-countup-v3";
                 <span class="Small_text mt-lg-3 mt-md-2 mt-2">Save upto</span>
               </div>
               <div class="d-flex flex-column">
-                <span class="flex mb-1"
-                  >$<count-up class="number" end-val="2864">0</count-up></span
+                <span class="d-flex mb-1"
+                  >$<count-up class="number" :end-val="2864">0</count-up></span
                 >
                 <span class="Small_text">to Find your Smart Home</span>
               </div>

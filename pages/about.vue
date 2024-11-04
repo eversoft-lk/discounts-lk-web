@@ -32,13 +32,13 @@ import CountUp from "vue-countup-v3";
               data-aos="fade-up"
             >
               <div class="d-flex flex-column text-center gap-2">
-                <h2 class="flex">
+                <h2 class="d-flex">
                   <count-up class="number" :end-val="120"></count-up>M+
                 </h2>
                 <p>App Downloads</p>
               </div>
               <div class="d-flex flex-column text-center gap-2">
-                <h2 class="flex">
+                <h2 class="d-flex">
                   <count-up class="number" :end-val="110"></count-up>M+
                 </h2>
                 <p>User Reviews</p>
@@ -81,7 +81,7 @@ import CountUp from "vue-countup-v3";
               </div>
               <div>
                 <p>save upto</p>
-                <h2 class="flex">
+                <h2 class="d-flex">
                   $<count-up class="number" :end-val="2864">0</count-up>
                 </h2>
                 <p>to Find your Smart Home</p>
@@ -116,7 +116,7 @@ import CountUp from "vue-countup-v3";
           <img src="/images/About/Hero_member-3.webp" alt="Hero_member" />
           <img src="/images/About/Hero_member-4.webp" alt="Hero_member" />
         </div>
-        <p class="flex">
+        <p class="d-flex">
           Join Over <count-up class="number ms-1" :end-val="4400">0</count-up>+
           Members
         </p>
@@ -127,6 +127,7 @@ import CountUp from "vue-countup-v3";
   <!-- ======== 1.4. Partners section ========  -->
   <Slider />
   <!-- ======== End of 1.4. Partners section ========  -->
+   
   <!-- ======== 1.5. Services section ========  -->
   <section class="Services About_Services">
     <div class="container">
