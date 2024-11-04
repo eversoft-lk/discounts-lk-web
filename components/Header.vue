@@ -24,7 +24,10 @@
             <li class="nav-item">
               <NuxtLink class="nav-link" to="/pricing">Pricing</NuxtLink>
             </li>
-            <li class="dropdown">
+            <li class="nav-item">
+              <NuxtLink class="nav-link" to="/features">Features</NuxtLink>
+            </li>
+            <!-- <li class="dropdown">
               <a class="nav-link d-flex align-item-center gap-1" href="#"
                 >Pages <i class="fa-sharp fa-solid fa-sort-down"></i
               ></a>
@@ -53,7 +56,7 @@
                   >
                 </li>
               </ul>
-            </li>
+            </li> -->
           </ul>
         </div>
         <a href="#" class="hover1 down-btn">Download</a>
