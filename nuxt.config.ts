@@ -34,7 +34,7 @@ export default defineNuxtConfig({
       type: "standard",
       hideMessageBubble: false,
       showPopoutButton: true,
-
+      darkMode: "light"
       // ... and more settings
     },
     // If this is loaded you can make it true, https://github.com/nuxt-modules/partytown

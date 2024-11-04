@@ -164,7 +164,7 @@ const { isModalVisible, toggle, toggleBubbleVisibility, popoutChatWindow } =
             >
               <div>
                 <p>Total Payment</p>
-                <h5 class="flex">
+                <h5 class="d-flex">
                   $<count-up class="number" :end-val="1800">0</count-up>
                 </h5>
               </div>
