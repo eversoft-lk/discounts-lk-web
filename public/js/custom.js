@@ -186,40 +186,40 @@ if (aboutFor !== null) {
 }
 
 // ====== 1.4. Partners section ======
-if (document.querySelector(".Partners_Slider")) {
-  $(".Partners_Slider").slick({
-    arrows: false,
-    dots: false,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    speed: 3000,
-    slidesToShow: 6,
-    cssEase: "linear",
-    responsive: [
-      {
-        breakpoint: 991,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  });
-}
+// if (document.querySelector(".Partners_Slider")) {
+//   $(".Partners_Slider").slick({
+//     arrows: false,
+//     dots: false,
+//     infinite: true,
+//     autoplay: true,
+//     autoplaySpeed: 2000,
+//     speed: 3000,
+//     slidesToShow: 6,
+//     cssEase: "linear",
+//     responsive: [
+//       {
+//         breakpoint: 991,
+//         settings: {
+//           slidesToShow: 4,
+//           slidesToScroll: 1,
+//         },
+//       },
+//       {
+//         breakpoint: 768,
+//         settings: {
+//           slidesToShow: 3,
+//         },
+//       },
+//       {
+//         breakpoint: 480,
+//         settings: {
+//           slidesToShow: 2,
+//           slidesToScroll: 1,
+//         },
+//       },
+//     ],
+//   });
+// }
 
 // 1.7. Register section === Search Domain massage
 const aboutFor2 = document.getElementById("Subscribe-massage2");
