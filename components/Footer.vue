@@ -15,27 +15,27 @@ let currentYear = new Date().getFullYear();
       <ul class="d-flex gap-lg-5 gap-4">
         <li>
           <p>
-            <a href="index.html">Home</a>
+            <NuxtLink to="/">Home</NuxtLink>
           </p>
         </li>
         <li>
           <p>
-            <a href="Features.html">Features</a>
+            <NuxtLink to="/features">Features</NuxtLink>
           </p>
         </li>
         <li>
           <p>
-            <a href="Pricing.html">Pricing</a>
+            <NuxtLink to="/pricing">Pricing</NuxtLink>
           </p>
         </li>
         <li>
           <p>
-            <a href="About.html">About</a>
+            <NuxtLink to="/about">About</NuxtLink>
           </p>
         </li>
         <li>
           <p>
-            <a href="Contact.html">Contact</a>
+            <NuxtLink to="/contact">Contact</NuxtLink>
           </p>
         </li>
       </ul>
@@ -63,9 +63,15 @@ let currentYear = new Date().getFullYear();
         </figure>
       </div>
       <div class="text-center">
+        <h5 class="mb-1">
+          &copy; <span id="year">{{ currentYear }}</span>
+          <span class="fw-bold text-muted"> DiscountLK.</span> All Rights
+          Reserved.
+        </h5>
         <h5 class="mb-2">
-          Copyright &copy; <span id="year">{{ currentYear }}</span> Appific By
-          Evonicmedia. All Rights Reserved.
+          Powered by <a href="" class="text-warning">Think Digital</a>. Designed
+          and Developed by
+          <a href="https://eversoft.lk" class="text-warning">Eversoft.</a>
         </h5>
       </div>
     </div>

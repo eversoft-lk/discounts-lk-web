@@ -1,25 +1,29 @@
 <template>
-  <div class="Slider_row">
-    <div class="row align-items-center">
-      <div class="rounded">
-        <h2 class="text-center mb-5">Lorem, ipsum dolor</h2>
-        <div class="slider">
-          <div class="logos">
-            <i class="fab fa-js fa-4x"></i>
-            <i class="fab fa-linkedin-in fa-4x"></i>
-            <i class="fab fa-dribbble fa-4x"></i>
-            <i class="fab fa-medium-m fa-4x"></i>
-            <i class="fab fa-github fa-4x"></i>
+  <!-- ======== 1.4. Partners section ========  -->
+  <section class="Partners">
+    <h2 class="d-none">Lorem, ipsum dolor</h2>
+    <div class="container">
+      <hr />
+      <div class="Partners_Slider">
+        <!-- Scrolling logos in a seamless loop -->
+        <div class="scroll-track">
+          <div v-for="i in 6" :key="'first-' + i" class="logo">
+            <img
+              :src="`/images/index/Partners_logo${i}.webp`"
+              :alt="`logo${i}`"
+            />
           </div>
-          <div class="logos">
-            <i class="fab fa-js fa-4x"></i>
-            <i class="fab fa-linkedin-in fa-4x"></i>
-            <i class="fab fa-dribbble fa-4x"></i>
-            <i class="fab fa-medium-m fa-4x"></i>
-            <i class="fab fa-github fa-4x"></i>
+          <!-- Duplicate logos for seamless scrolling -->
+          <div v-for="i in 6" :key="'second-' + i" class="logo">
+            <img
+              :src="`/images/index/Partners_logo${i}.webp`"
+              :alt="`logo${i}`"
+            />
           </div>
         </div>
       </div>
+      <hr />
     </div>
-  </div>
+  </section>
+  <!-- ======== End of 1.4. Partners section ========  -->
 </template>
